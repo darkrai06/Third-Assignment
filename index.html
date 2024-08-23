@@ -22,7 +22,7 @@
     <body class="manrope-font">
         <header class="mt-14 mx-[20px] lg:px-[auto] flex flex-col items-center justify-center">
             <div class="flex gap-[3vw] bg-base-100">
-                <div class="flex">
+                <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" class="size-9 bg-[#abef5f] rounded-[50%] p-[10px]">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                       </svg>
@@ -60,7 +60,7 @@
                 </div>
               </section>
         </header>
-        <main class="bg-[#e1e1e1] flex flex-col items-center py-[40px] lg:py-[100px]">
+        <main class="bg-base-300 flex flex-col items-center pt-[40px] pb-3 lg:pt-[100px]">
             <section class="flex flex-col justify-center lg:flex-row gap-10 lg:pt-[30px] px-5 lg:px-[auto]">
                 <div class="flex flex-col relative items-center gap-6 lg:items-start max-w-[560px]">
                     <button class="btn rounded-[24px]"><i class="fa-solid fa-arrow-right-long"></i>About US</button>
@@ -154,6 +154,96 @@
                     </div>
                 </div>
                 </div>
+            </section>
+            <div class="flex flex-col items-center gap-6 max-w-[750px] py-[50px] px-[20px] lg:px-[auto]">
+                <h1 class="text-[24px] lg:text-[40px] font-extrabold text-center">Top Customer Reviews</h1>
+                <p class="font-semibold text-center">We give special prizes to our reviewer of the month. Also another top 3 reviewer also gets exciting prizes. So grab the opportunity now.</p>
+                <button class="btn bg-[rgba(171,239,95,0.5)] rounded-[24px] w-[246px] flex"><i class="fa-solid fa-arrow-right-long"></i>Give Your Review Now</button>
+            </div>
+            <section class="flex flex-col lg:flex-row relative px-5 lg:px-[auto] pb-[50px] lg:pb-[108px] gap-4 lg:gap-10">
+                <div class=" max-w-[433px] lg:pl-12 lg:pr-10 p-6 lg:py-10 bg-white rounded-xl flex flex-col gap-6 lg:justify-between">
+                    <img src="assets/client.png" class="absolute hidden lg:block top-[-20px] left-[-20px] bg-white p-1 rounded-[50%]">
+                    <div class="flex gap-2 text-[#abef5f]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    <p class="font-lg font-light">Highly efficient and fast-working. The design was flawless and included valuable suggestions for better outcome. Highly recommended.</p>
+                    <h2 class="card-title text-[#23A6F0] text-lg">Ava Morgan</h2>
+                </div>
+                <div class="flex flex-col gap-3">
+                <div class="collapse collapse-arrow bg-white">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl flex justify-between items-center">
+                        <h2 class="card-title text-[#23A6F0] text-[14px]">Eren Yeager</h2>
+                        <div class="flex gap-2 text-[#abef5f] text-[14px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                    </div>
+                    <div class="collapse-content">
+                      <p class="text-[12px]">Top-notch efficiency with perfect design and great finishing</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-white">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium flex justify-between items-center">
+                        <h2 class="card-title text-[#23A6F0] text-[14px]">Kenzo Tenma</h2>
+                        <div class="flex gap-2 text-[#abef5f] text-[14px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                    </div>
+                    <div class="collapse-content">
+                      <p class="text-[12px]">Decent work overall but some improvements could be made</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow bg-white">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium flex justify-between items-center">
+                        <h2 class="card-title text-[#23A6F0] text-[14px]">Johan Liebert</h2>
+                        <div class="flex gap-2 text-[#abef5f] text-[14px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          </div>
+                    </div>
+                    <div class="collapse-content">
+                      <p class="text-[12px]">Great work with on time service and solid design</p>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="bg-[url('assets/bg.jpg')] bg-cover border-4 border-white w-[100%] px-5 lg:px-[auto] py-8 lg:py-[100px]">
+            <div>
+                <div class="flex flex-col items-center justify-center mx-[20px] lg:mx-[auto] mt-[100px] gap-4 max-w-[678px]">
+                    <button class="btn bg-[rgba(171,239,95,0.5)] rounded-[24px] flex w-[166px]"><i class="fa-solid fa-arrow-right-long"></i>How We Work</button>
+                    <h1 class="text-[24px] lg:text-[40px] font-extrabold text-center">Our Works Process</h1>
+                    <p class="font-semibold text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+            </div>
+                <div class="flex justify-center">
+                <div class="flex flex-col max-w-[970px] w-full lg:grid lg:grid-cols-2 gap-6">
+                    <input type="text" placeholder="First Name*" class="p-5 border border-[#e9e9e9] rounded-[64px]">
+                    <input type="text" placeholder="Last Name*" class="p-5 border border-[#e9e9e9] rounded-[64px]">
+                    <input type="number" placeholder="Phone Number*" class="p-5 border border-[#e9e9e9] rounded-[64px]">
+                    <input type="email" placeholder="Email Address*" class="p-5 border border-[#e9e9e9] rounded-[64px]">
+                    <textarea placeholder="Write your message here" class="col-span-2 h-[240px] p-5 border border-[#e9e9e9] rounded-[32px]"></textarea>
+                    <a class="btn w-full bg-[#abef5f] font-extrabold text-[20px] rounded-[32px]">Send Mail<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" class="size-9 bg-black text-white rounded-[50%] p-[6px]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg></a>
+                </div>
+            </div>
             </section>
         </main>
     </body>
